@@ -22,6 +22,8 @@ get_header(); ?>
 					 */
 					get_template_part( 'content', get_post_format() );
 
+					echo types_render_field("class-url", array("argument1"=>"value1","argument2"=>"value2","argument2"=>"value2"));
+
 					// Previous/next post navigation.
 					twentyfourteen_post_nav();
 
