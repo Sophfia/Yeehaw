@@ -24,6 +24,8 @@ get_header(); ?>
 
 					echo types_render_field("class-url", array("argument1"=>"value1","argument2"=>"value2","argument2"=>"value2"));
 
+					echo the_field('text_field_');
+
 					// Previous/next post navigation.
 					twentyfourteen_post_nav();
 
