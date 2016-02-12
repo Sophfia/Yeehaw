@@ -12,8 +12,8 @@
  */
 
 get_header(); ?>
-
-<div id="main-content" class="main-content" style="background:pink;">
+<link rel="stylesheet" type="text/css" href="href="paraPagina.css"">
+<div id="main-content" class="main-content">
 
 <?php
 	if ( is_front_page() && twentyfourteen_has_featured_posts() ) {
